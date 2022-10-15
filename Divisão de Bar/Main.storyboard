@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -112,7 +111,7 @@
                                                         </constraints>
                                                         <color key="tintColor" red="0.0" green="0.59227246050000004" blue="0.347086966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <connections>
-                                                            <action selector="stepperValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="pYr-ab-NVC"/>
+                                                            <action selector="stepperValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="eQc-VV-2uP"/>
                                                         </connections>
                                                     </stepper>
                                                 </subviews>
@@ -128,7 +127,7 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.85098039219999999" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="4Kz-KP-Wql" firstAttribute="top" secondItem="KF2-lb-2g9" secondAttribute="top" constant="20" id="102-mO-Rf4"/>
                                     <constraint firstAttribute="trailing" secondItem="4Kz-KP-Wql" secondAttribute="trailing" constant="20" id="FPW-eG-r7L"/>
@@ -153,7 +152,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="UwX-2q-hhK"/>
                                         </constraints>
-                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                     </textField>
@@ -180,7 +179,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QeU-ob-cbi"/>
+                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZcK-DY-bPo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -199,12 +198,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="billTextField" destination="37F-W0-7q5" id="ZYB-sD-d4C"/>
-                        <outlet property="splitNumberLabel" destination="tsa-L4-EL3" id="LcD-fO-EAb"/>
-                        <outlet property="tenPctButton" destination="97d-eg-B8h" id="2TL-o8-vUz"/>
-                        <outlet property="twentyPctButton" destination="8ZR-aI-Q7h" id="H8s-Qg-nMf"/>
-                        <outlet property="zeroPctButton" destination="UeV-0h-F56" id="r3X-2X-6ih"/>
-                        <segue destination="Dnf-m2-FPm" kind="presentation" identifier="goToResults" id="CuC-72-OJg"/>
+                        <outlet property="billTextField" destination="37F-W0-7q5" id="cBg-ZD-cq4"/>
+                        <outlet property="splitNumberLabel" destination="tsa-L4-EL3" id="RrM-Kl-vhk"/>
+                        <outlet property="tenPctButton" destination="97d-eg-B8h" id="PRI-qP-1W1"/>
+                        <outlet property="twentyPctButton" destination="8ZR-aI-Q7h" id="bcO-yf-FhV"/>
+                        <outlet property="zeroPctButton" destination="UeV-0h-F56" id="LIV-D3-r7H"/>
+                        <segue destination="Dnf-m2-FPm" kind="presentation" identifier="goToResults" id="hxJ-db-Ypx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -241,7 +240,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.85098039219999999" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="9cB-3m-144" firstAttribute="leading" secondItem="XSh-1m-cuH" secondAttribute="leading" id="J5V-lh-MX8"/>
                                     <constraint firstAttribute="height" constant="300" id="a5h-KN-X9O"/>
@@ -267,7 +266,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="recalculatePressed:" destination="Dnf-m2-FPm" eventType="touchUpInside" id="hw9-2U-cZX"/>
+                                    <action selector="recalculatePressed:" destination="Dnf-m2-FPm" eventType="touchUpInside" id="AKf-ZT-yFq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Divisão de 2 pessoas, com 10% de taxa de serviço" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbQ-ca-OmW">
@@ -294,8 +293,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="settingsLabel" destination="ZbQ-ca-OmW" id="GOh-7A-7vy"/>
-                        <outlet property="totalLabel" destination="cDc-PO-qoO" id="nWR-XD-y8W"/>
+                        <outlet property="settingsLabel" destination="ZbQ-ca-OmW" id="xMP-SP-0RZ"/>
+                        <outlet property="totalLabel" destination="cDc-PO-qoO" id="T5W-rS-aMh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLi-Eb-NGd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -303,9 +302,4 @@
             <point key="canvasLocation" x="893" y="118"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-    </resources>
 </document>
