@@ -10,6 +10,8 @@ import UIKit
 class CalculatorViewController: UIViewController {
     
     @IBOutlet weak var billTextField: UITextField!
+    
+        
     @IBOutlet weak var zeroPctButton: UIButton!
     @IBOutlet weak var tenPctButton: UIButton!
     @IBOutlet weak var twentyPctButton: UIButton!
@@ -21,12 +23,7 @@ class CalculatorViewController: UIViewController {
     var finalResult = "0.0"
     
         
-    @IBAction func olhaoBill(_ sender: UITextField) {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .decimal
-        
-    }
-    
+
     
 
     @IBAction func tipChanged(_ sender: UIButton) {
@@ -48,7 +45,6 @@ class CalculatorViewController: UIViewController {
         let buttonTitle = sender.currentTitle!
         let buttonTitleMinusPercentSign =  String(buttonTitle.dropLast())
         let buttonTitleAsANumber = Double(buttonTitleMinusPercentSign)!
-        let formatter = NumberFormatter()
         tip = buttonTitleAsANumber / 100
         
         
@@ -61,6 +57,7 @@ class CalculatorViewController: UIViewController {
         numberOfPeople = Int(sender.value)
         
     }
+    
     
     
     
