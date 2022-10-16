@@ -20,13 +20,21 @@ class CalculatorViewController: UIViewController {
     var billTotal = 0.0
     var finalResult = "0.0"
     
+        
+    @IBAction func olhaoBill(_ sender: UITextField) {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
+        
+    }
     
     
 
     @IBAction func tipChanged(_ sender: UIButton) {
         
+        
 
         billTextField.endEditing(true)
+        
         
 
         
@@ -40,6 +48,7 @@ class CalculatorViewController: UIViewController {
         let buttonTitle = sender.currentTitle!
         let buttonTitleMinusPercentSign =  String(buttonTitle.dropLast())
         let buttonTitleAsANumber = Double(buttonTitleMinusPercentSign)!
+        let formatter = NumberFormatter()
         tip = buttonTitleAsANumber / 100
         
         
