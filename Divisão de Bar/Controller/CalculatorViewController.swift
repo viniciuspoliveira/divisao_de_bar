@@ -22,7 +22,12 @@ class CalculatorViewController: UIViewController {
     var billTotal = 0.0
     var finalResult = "0.0"
     
-        
+    
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
 
     
 

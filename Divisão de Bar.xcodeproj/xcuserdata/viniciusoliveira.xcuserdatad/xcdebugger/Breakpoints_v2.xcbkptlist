@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0646291A-52CF-4B35-8660-C1A45F6F31D2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2025F570-E2D4-42A7-B2C1-AC22E613135B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Divisa&#x303;o de Bar/Controller/ResultsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ResultsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2025F570-E2D4-42A7-B2C1-AC22E613135B - 95cd92db7dd6da3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Divis&#xe3;o_de_Bar.ResultsViewController.settingsLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Divisa&#x303;o de Bar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciusoliveira/Developer/Divisa%CC%83o%20de%20Bar/Divisa%CC%83o%20de%20Bar/Controller/ResultsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "2025F570-E2D4-42A7-B2C1-AC22E613135B - 7128acc06bfb7ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Divis&#xe3;o_de_Bar.ResultsViewController.settingsLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Divisa&#x303;o de Bar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciusoliveira/Developer/Divisa%CC%83o%20de%20Bar/Divisa%CC%83o%20de%20Bar/Controller/ResultsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "2025F570-E2D4-42A7-B2C1-AC22E613135B - 1af77ba4e976338"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Divis&#xe3;o_de_Bar.ResultsViewController.settingsLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Divisa&#x303;o de Bar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciusoliveira/Developer/Divisa%CC%83o%20de%20Bar/Divisa%CC%83o%20de%20Bar/Controller/ResultsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2025F570-E2D4-42A7-B2C1-AC22E613135B - 98db5d1c174fc6c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Divis&#xe3;o_de_Bar.ResultsViewController.settingsLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Divisa&#x303;o de Bar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciusoliveira/Developer/Divisa%CC%83o%20de%20Bar/Divisa%CC%83o%20de%20Bar/Controller/ResultsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "2025F570-E2D4-42A7-B2C1-AC22E613135B - dffd1e6cbbf1400d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Divis&#xe3;o_de_Bar.ResultsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Divis&#xe3;o_de_Bar.ResultsViewController"
+                  moduleName = "Divisa&#x303;o de Bar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciusoliveira/Developer/Divisa%CC%83o%20de%20Bar/Divisa%CC%83o%20de%20Bar/Controller/ResultsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "2025F570-E2D4-42A7-B2C1-AC22E613135B - 9ae626d5d3af9741"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Divis&#xe3;o_de_Bar.ResultsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Divis&#xe3;o_de_Bar.ResultsViewController&gt;"
+                  moduleName = "Divisa&#x303;o de Bar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciusoliveira/Developer/Divisa%CC%83o%20de%20Bar/Divisa%CC%83o%20de%20Bar/Controller/ResultsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
