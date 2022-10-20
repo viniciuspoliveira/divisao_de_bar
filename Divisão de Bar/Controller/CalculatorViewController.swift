@@ -11,6 +11,15 @@ class CalculatorViewController: UIViewController {
     
     @IBOutlet weak var billTextField: UITextField!
     
+    func billTextField(_ billTextField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+         if string == "," {
+             billTextField.text = billTextField.text! + "."
+             return false
+         }
+         return true     // Could also filter on numbers only
+ }
+    
+    
         
     @IBOutlet weak var zeroPctButton: UIButton!
     @IBOutlet weak var tenPctButton: UIButton!
@@ -64,16 +73,20 @@ class CalculatorViewController: UIViewController {
     }
     
     
+ 
     
     
    
     @IBAction func calculatePressed(_ sender: UIButton) {
 
-    
+        
+        
     
         let bill = billTextField.text!
+        
         if bill != "" {
-            billTotal = Double(bill)!
+            let convertbill = (bill as NSString).doubleValue
+            billTotal = Double(convertbill)
             let result = billTotal * (1 + tip) / Double(numberOfPeople)
             finalResult = String(format: "%.2f", result)
         }
